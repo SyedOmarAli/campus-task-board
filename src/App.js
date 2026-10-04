@@ -57,7 +57,7 @@ function App() {
       />
 
       {/* TASK 3: button, onClick calls addTask */}
-      <button onClick={addTask}>Add Task</button> // button to add a new task
+      <button onClick={addTask}>Add Task</button>      
 
       {/* TASK 1 + 2: loop over tasks and show a TaskCard for each */}
       {tasks.map((task) => ( 
